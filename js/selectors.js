@@ -4,17 +4,17 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  $('img:last');
+  return $('img:last');
 }
 
 function ninjaBabySelector () {
-  $('#');
+  return $('#');
 }
 
 function divSelector () {
-  $('.pics');
+  return $('.pics');
 }
 
 function firstListItem() {
-  $('#pic-list ul:first-child');
+  return $('#pic-list ul:first-child');
 }
